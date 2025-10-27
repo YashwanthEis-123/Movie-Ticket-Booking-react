@@ -1,0 +1,22 @@
+.upbg{
+    background-color:rgba(105, 105, 105, 0.241);
+}
+.Upcomingmovies{
+    width: 80%;
+    border: 3px solid transparent;
+}
+.uc{
+    border:2px solid transparent;
+    background-color:black;
+    border-radius: 10px;
+    width:250px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+.allUpcommingMovies{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+    color:honeydew;
+    row-gap: 30px;
+}

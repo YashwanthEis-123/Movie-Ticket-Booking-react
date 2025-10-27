@@ -1,0 +1,21 @@
+.probg{
+    background-color:rgba(105, 105, 105, 0.241);
+}
+.promocard{
+    width:90%;
+    height: 200px;
+    background-image: url("../../src/assets/promocard.jpg");
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:lightsalmon;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.promocarddetails{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content:space-between;
+    align-items: center;
+}
